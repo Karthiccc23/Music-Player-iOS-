@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27796CCF23E74487005CCE18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27796CCE23E74487005CCE18 /* AppDelegate.swift */; };
+		27796CD123E74487005CCE18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27796CD023E74487005CCE18 /* ViewController.swift */; };
+		27796CD423E74487005CCE18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27796CD223E74487005CCE18 /* Main.storyboard */; };
+		27796CD723E74487005CCE18 /* MimiAudioPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27796CD523E74487005CCE18 /* MimiAudioPlayer.xcdatamodeld */; };
+		27796CD923E74489005CCE18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27796CD823E74489005CCE18 /* Assets.xcassets */; };
+		27796CDC23E74489005CCE18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27796CDA23E74489005CCE18 /* LaunchScreen.storyboard */; };
+		27796CE723E74489005CCE18 /* MimiAudioPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27796CE623E74489005CCE18 /* MimiAudioPlayerTests.swift */; };
+		27796CF223E74489005CCE18 /* MimiAudioPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27796CF123E74489005CCE18 /* MimiAudioPlayerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27796CE323E74489005CCE18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27796CC323E74487005CCE18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27796CCA23E74487005CCE18;
+			remoteInfo = MimiAudioPlayer;
+		};
+		27796CEE23E74489005CCE18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27796CC323E74487005CCE18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27796CCA23E74487005CCE18;
+			remoteInfo = MimiAudioPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27796CCB23E74487005CCE18 /* MimiAudioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MimiAudioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27796CCE23E74487005CCE18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27796CD023E74487005CCE18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27796CD323E74487005CCE18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27796CD623E74487005CCE18 /* MimiAudioPlayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MimiAudioPlayer.xcdatamodel; sourceTree = "<group>"; };
+		27796CD823E74489005CCE18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27796CDB23E74489005CCE18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27796CDD23E74489005CCE18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27796CE223E74489005CCE18 /* MimiAudioPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MimiAudioPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27796CE623E74489005CCE18 /* MimiAudioPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MimiAudioPlayerTests.swift; sourceTree = "<group>"; };
+		27796CE823E74489005CCE18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27796CED23E74489005CCE18 /* MimiAudioPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MimiAudioPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27796CF123E74489005CCE18 /* MimiAudioPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MimiAudioPlayerUITests.swift; sourceTree = "<group>"; };
+		27796CF323E74489005CCE18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27796CC823E74487005CCE18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27796CDF23E74489005CCE18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27796CEA23E74489005CCE18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27796CC223E74487005CCE18 = {
+			isa = PBXGroup;
+			children = (
+				27796CCD23E74487005CCE18 /* MimiAudioPlayer */,
+				27796CE523E74489005CCE18 /* MimiAudioPlayerTests */,
+				27796CF023E74489005CCE18 /* MimiAudioPlayerUITests */,
+				27796CCC23E74487005CCE18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27796CCC23E74487005CCE18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27796CCB23E74487005CCE18 /* MimiAudioPlayer.app */,
+				27796CE223E74489005CCE18 /* MimiAudioPlayerTests.xctest */,
+				27796CED23E74489005CCE18 /* MimiAudioPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27796CCD23E74487005CCE18 /* MimiAudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				27796CCE23E74487005CCE18 /* AppDelegate.swift */,
+				27796CD023E74487005CCE18 /* ViewController.swift */,
+				27796CD223E74487005CCE18 /* Main.storyboard */,
+				27796CD823E74489005CCE18 /* Assets.xcassets */,
+				27796CDA23E74489005CCE18 /* LaunchScreen.storyboard */,
+				27796CDD23E74489005CCE18 /* Info.plist */,
+				27796CD523E74487005CCE18 /* MimiAudioPlayer.xcdatamodeld */,
+			);
+			path = MimiAudioPlayer;
+			sourceTree = "<group>";
+		};
+		27796CE523E74489005CCE18 /* MimiAudioPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				27796CE623E74489005CCE18 /* MimiAudioPlayerTests.swift */,
+				27796CE823E74489005CCE18 /* Info.plist */,
+			);
+			path = MimiAudioPlayerTests;
+			sourceTree = "<group>";
+		};
+		27796CF023E74489005CCE18 /* MimiAudioPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27796CF123E74489005CCE18 /* MimiAudioPlayerUITests.swift */,
+				27796CF323E74489005CCE18 /* Info.plist */,
+			);
+			path = MimiAudioPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27796CCA23E74487005CCE18 /* MimiAudioPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27796CF623E74489005CCE18 /* Build configuration list for PBXNativeTarget "MimiAudioPlayer" */;
+			buildPhases = (
+				27796CC723E74487005CCE18 /* Sources */,
+				27796CC823E74487005CCE18 /* Frameworks */,
+				27796CC923E74487005CCE18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MimiAudioPlayer;
+			productName = MimiAudioPlayer;
+			productReference = 27796CCB23E74487005CCE18 /* MimiAudioPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27796CE123E74489005CCE18 /* MimiAudioPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27796CF923E74489005CCE18 /* Build configuration list for PBXNativeTarget "MimiAudioPlayerTests" */;
+			buildPhases = (
+				27796CDE23E74489005CCE18 /* Sources */,
+				27796CDF23E74489005CCE18 /* Frameworks */,
+				27796CE023E74489005CCE18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27796CE423E74489005CCE18 /* PBXTargetDependency */,
+			);
+			name = MimiAudioPlayerTests;
+			productName = MimiAudioPlayerTests;
+			productReference = 27796CE223E74489005CCE18 /* MimiAudioPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27796CEC23E74489005CCE18 /* MimiAudioPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27796CFC23E74489005CCE18 /* Build configuration list for PBXNativeTarget "MimiAudioPlayerUITests" */;
+			buildPhases = (
+				27796CE923E74489005CCE18 /* Sources */,
+				27796CEA23E74489005CCE18 /* Frameworks */,
+				27796CEB23E74489005CCE18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27796CEF23E74489005CCE18 /* PBXTargetDependency */,
+			);
+			name = MimiAudioPlayerUITests;
+			productName = MimiAudioPlayerUITests;
+			productReference = 27796CED23E74489005CCE18 /* MimiAudioPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27796CC323E74487005CCE18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Karthic;
+				TargetAttributes = {
+					27796CCA23E74487005CCE18 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					27796CE123E74489005CCE18 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 27796CCA23E74487005CCE18;
+					};
+					27796CEC23E74489005CCE18 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 27796CCA23E74487005CCE18;
+					};
+				};
+			};
+			buildConfigurationList = 27796CC623E74487005CCE18 /* Build configuration list for PBXProject "MimiAudioPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27796CC223E74487005CCE18;
+			productRefGroup = 27796CCC23E74487005CCE18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27796CCA23E74487005CCE18 /* MimiAudioPlayer */,
+				27796CE123E74489005CCE18 /* MimiAudioPlayerTests */,
+				27796CEC23E74489005CCE18 /* MimiAudioPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27796CC923E74487005CCE18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27796CDC23E74489005CCE18 /* LaunchScreen.storyboard in Resources */,
+				27796CD923E74489005CCE18 /* Assets.xcassets in Resources */,
+				27796CD423E74487005CCE18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27796CE023E74489005CCE18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27796CEB23E74489005CCE18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27796CC723E74487005CCE18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27796CD123E74487005CCE18 /* ViewController.swift in Sources */,
+				27796CCF23E74487005CCE18 /* AppDelegate.swift in Sources */,
+				27796CD723E74487005CCE18 /* MimiAudioPlayer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27796CDE23E74489005CCE18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27796CE723E74489005CCE18 /* MimiAudioPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27796CE923E74489005CCE18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27796CF223E74489005CCE18 /* MimiAudioPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27796CE423E74489005CCE18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27796CCA23E74487005CCE18 /* MimiAudioPlayer */;
+			targetProxy = 27796CE323E74489005CCE18 /* PBXContainerItemProxy */;
+		};
+		27796CEF23E74489005CCE18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27796CCA23E74487005CCE18 /* MimiAudioPlayer */;
+			targetProxy = 27796CEE23E74489005CCE18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27796CD223E74487005CCE18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27796CD323E74487005CCE18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27796CDA23E74489005CCE18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27796CDB23E74489005CCE18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27796CF423E74489005CCE18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27796CF523E74489005CCE18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27796CF723E74489005CCE18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MimiAudioPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.challenge.mimi.MimiAudioPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27796CF823E74489005CCE18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MimiAudioPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.challenge.mimi.MimiAudioPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		27796CFA23E74489005CCE18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MimiAudioPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.challenge.mimi.MimiAudioPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MimiAudioPlayer.app/MimiAudioPlayer";
+			};
+			name = Debug;
+		};
+		27796CFB23E74489005CCE18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MimiAudioPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.challenge.mimi.MimiAudioPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MimiAudioPlayer.app/MimiAudioPlayer";
+			};
+			name = Release;
+		};
+		27796CFD23E74489005CCE18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MimiAudioPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.challenge.mimi.MimiAudioPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MimiAudioPlayer;
+			};
+			name = Debug;
+		};
+		27796CFE23E74489005CCE18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MimiAudioPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.challenge.mimi.MimiAudioPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MimiAudioPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27796CC623E74487005CCE18 /* Build configuration list for PBXProject "MimiAudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27796CF423E74489005CCE18 /* Debug */,
+				27796CF523E74489005CCE18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27796CF623E74489005CCE18 /* Build configuration list for PBXNativeTarget "MimiAudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27796CF723E74489005CCE18 /* Debug */,
+				27796CF823E74489005CCE18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27796CF923E74489005CCE18 /* Build configuration list for PBXNativeTarget "MimiAudioPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27796CFA23E74489005CCE18 /* Debug */,
+				27796CFB23E74489005CCE18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27796CFC23E74489005CCE18 /* Build configuration list for PBXNativeTarget "MimiAudioPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27796CFD23E74489005CCE18 /* Debug */,
+				27796CFE23E74489005CCE18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		27796CD523E74487005CCE18 /* MimiAudioPlayer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				27796CD623E74487005CCE18 /* MimiAudioPlayer.xcdatamodel */,
+			);
+			currentVersion = 27796CD623E74487005CCE18 /* MimiAudioPlayer.xcdatamodel */;
+			path = MimiAudioPlayer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 27796CC323E74487005CCE18 /* Project object */;
+}
