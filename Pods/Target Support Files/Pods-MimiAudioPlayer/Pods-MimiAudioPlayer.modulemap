@@ -1,0 +1,6 @@
+framework module Pods_MimiAudioPlayer {
+  umbrella header "Pods-MimiAudioPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

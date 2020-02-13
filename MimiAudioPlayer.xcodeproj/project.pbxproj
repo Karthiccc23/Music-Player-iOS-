@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,21 @@
 		27796CDC23E74489005CCE18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27796CDA23E74489005CCE18 /* LaunchScreen.storyboard */; };
 		27796CE723E74489005CCE18 /* MimiAudioPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27796CE623E74489005CCE18 /* MimiAudioPlayerTests.swift */; };
 		27796CF223E74489005CCE18 /* MimiAudioPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27796CF123E74489005CCE18 /* MimiAudioPlayerUITests.swift */; };
+		27796D0323E7A640005CCE18 /* ArtistListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27796D0223E7A640005CCE18 /* ArtistListViewModel.swift */; };
+		27796D0523E7A69D005CCE18 /* TrackInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27796D0423E7A69D005CCE18 /* TrackInfo.swift */; };
+		27796D0723E7A6AF005CCE18 /* ArtistInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27796D0623E7A6AF005CCE18 /* ArtistInfo.swift */; };
+		27796D0923E7A6D1005CCE18 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27796D0823E7A6D1005CCE18 /* UserInfo.swift */; };
+		27796D0B23E7BBFF005CCE18 /* ArtistListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27796D0A23E7BBFF005CCE18 /* ArtistListViewController.swift */; };
+		27796D0E23E7D111005CCE18 /* ServiceConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27796D0D23E7D111005CCE18 /* ServiceConstants.swift */; };
+		27796D1023E7D32A005CCE18 /* MusicService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27796D0F23E7D32A005CCE18 /* MusicService.swift */; };
+		27796D1523E7FC9B005CCE18 /* TracksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27796D1423E7FC9B005CCE18 /* TracksViewController.swift */; };
+		27796D1723E7FCC3005CCE18 /* TracksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27796D1623E7FCC3005CCE18 /* TracksViewModel.swift */; };
+		27796D1B23E8183D005CCE18 /* FooterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27796D1A23E8183D005CCE18 /* FooterViewController.swift */; };
+		27796D2223E8E393005CCE18 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 27796D2123E8E393005CCE18 /* Podfile */; };
+		27796D2523E9F3BC005CCE18 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27796D2423E9F3BC005CCE18 /* Extensions.swift */; };
+		27796D2723EA13AA005CCE18 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27796D2623EA13AA005CCE18 /* Default-568h@2x.png */; };
+		27796D2923EA15ED005CCE18 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 27796D2823EA15ED005CCE18 /* Readme.md */; };
+		9195A28B9AAE02CD3C776F39 /* Pods_MimiAudioPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE7E1059987000B079D7AC8 /* Pods_MimiAudioPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +64,23 @@
 		27796CED23E74489005CCE18 /* MimiAudioPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MimiAudioPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27796CF123E74489005CCE18 /* MimiAudioPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MimiAudioPlayerUITests.swift; sourceTree = "<group>"; };
 		27796CF323E74489005CCE18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27796D0223E7A640005CCE18 /* ArtistListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistListViewModel.swift; sourceTree = "<group>"; };
+		27796D0423E7A69D005CCE18 /* TrackInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackInfo.swift; sourceTree = "<group>"; };
+		27796D0623E7A6AF005CCE18 /* ArtistInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistInfo.swift; sourceTree = "<group>"; };
+		27796D0823E7A6D1005CCE18 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		27796D0A23E7BBFF005CCE18 /* ArtistListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistListViewController.swift; sourceTree = "<group>"; };
+		27796D0D23E7D111005CCE18 /* ServiceConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceConstants.swift; sourceTree = "<group>"; };
+		27796D0F23E7D32A005CCE18 /* MusicService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicService.swift; sourceTree = "<group>"; };
+		27796D1423E7FC9B005CCE18 /* TracksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracksViewController.swift; sourceTree = "<group>"; };
+		27796D1623E7FCC3005CCE18 /* TracksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracksViewModel.swift; sourceTree = "<group>"; };
+		27796D1A23E8183D005CCE18 /* FooterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterViewController.swift; sourceTree = "<group>"; };
+		27796D2123E8E393005CCE18 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		27796D2423E9F3BC005CCE18 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		27796D2623EA13AA005CCE18 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		27796D2823EA15ED005CCE18 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		31270EDFD7A80B1B1188521F /* Pods-MimiAudioPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MimiAudioPlayer.release.xcconfig"; path = "Target Support Files/Pods-MimiAudioPlayer/Pods-MimiAudioPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		E175E2310248791D3F2F2D3F /* Pods-MimiAudioPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MimiAudioPlayer.debug.xcconfig"; path = "Target Support Files/Pods-MimiAudioPlayer/Pods-MimiAudioPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		FEE7E1059987000B079D7AC8 /* Pods_MimiAudioPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MimiAudioPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9195A28B9AAE02CD3C776F39 /* Pods_MimiAudioPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +109,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F3A885B519D703AEA1BAF5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E175E2310248791D3F2F2D3F /* Pods-MimiAudioPlayer.debug.xcconfig */,
+				31270EDFD7A80B1B1188521F /* Pods-MimiAudioPlayer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		27796CC223E74487005CCE18 = {
 			isa = PBXGroup;
 			children = (
+				27796D2823EA15ED005CCE18 /* Readme.md */,
 				27796CCD23E74487005CCE18 /* MimiAudioPlayer */,
 				27796CE523E74489005CCE18 /* MimiAudioPlayerTests */,
 				27796CF023E74489005CCE18 /* MimiAudioPlayerUITests */,
 				27796CCC23E74487005CCE18 /* Products */,
+				0F3A885B519D703AEA1BAF5C /* Pods */,
+				60CF28B8ABF468DCBCDEC645 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +144,12 @@
 		27796CCD23E74487005CCE18 /* MimiAudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				27796D2123E8E393005CCE18 /* Podfile */,
+				27796D2323E9F3AB005CCE18 /* Extensions */,
+				27796D0C23E7D0F4005CCE18 /* DataService */,
+				27796D0123E7A5FC005CCE18 /* ViewControllers */,
+				27796D0023E7788B005CCE18 /* ViewModel */,
+				27796CFF23E74497005CCE18 /* Model */,
 				27796CCE23E74487005CCE18 /* AppDelegate.swift */,
 				27796CD023E74487005CCE18 /* ViewController.swift */,
 				27796CD223E74487005CCE18 /* Main.storyboard */,
@@ -106,6 +157,7 @@
 				27796CDA23E74489005CCE18 /* LaunchScreen.storyboard */,
 				27796CDD23E74489005CCE18 /* Info.plist */,
 				27796CD523E74487005CCE18 /* MimiAudioPlayer.xcdatamodeld */,
+				27796D2623EA13AA005CCE18 /* Default-568h@2x.png */,
 			);
 			path = MimiAudioPlayer;
 			sourceTree = "<group>";
@@ -128,6 +180,60 @@
 			path = MimiAudioPlayerUITests;
 			sourceTree = "<group>";
 		};
+		27796CFF23E74497005CCE18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27796D0423E7A69D005CCE18 /* TrackInfo.swift */,
+				27796D0623E7A6AF005CCE18 /* ArtistInfo.swift */,
+				27796D0823E7A6D1005CCE18 /* UserInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		27796D0023E7788B005CCE18 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				27796D0223E7A640005CCE18 /* ArtistListViewModel.swift */,
+				27796D1623E7FCC3005CCE18 /* TracksViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		27796D0123E7A5FC005CCE18 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				27796D0A23E7BBFF005CCE18 /* ArtistListViewController.swift */,
+				27796D1423E7FC9B005CCE18 /* TracksViewController.swift */,
+				27796D1A23E8183D005CCE18 /* FooterViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		27796D0C23E7D0F4005CCE18 /* DataService */ = {
+			isa = PBXGroup;
+			children = (
+				27796D0D23E7D111005CCE18 /* ServiceConstants.swift */,
+				27796D0F23E7D32A005CCE18 /* MusicService.swift */,
+			);
+			path = DataService;
+			sourceTree = "<group>";
+		};
+		27796D2323E9F3AB005CCE18 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				27796D2423E9F3BC005CCE18 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		60CF28B8ABF468DCBCDEC645 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEE7E1059987000B079D7AC8 /* Pods_MimiAudioPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +241,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27796CF623E74489005CCE18 /* Build configuration list for PBXNativeTarget "MimiAudioPlayer" */;
 			buildPhases = (
+				3BF46AA2DBD33919B6FB65E3 /* [CP] Check Pods Manifest.lock */,
 				27796CC723E74487005CCE18 /* Sources */,
 				27796CC823E74487005CCE18 /* Frameworks */,
 				27796CC923E74487005CCE18 /* Resources */,
+				A39A6E522DD288960A64BD50 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,6 +304,11 @@
 				TargetAttributes = {
 					27796CCA23E74487005CCE18 = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					27796CE123E74489005CCE18 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -234,6 +347,9 @@
 			files = (
 				27796CDC23E74489005CCE18 /* LaunchScreen.storyboard in Resources */,
 				27796CD923E74489005CCE18 /* Assets.xcassets in Resources */,
+				27796D2923EA15ED005CCE18 /* Readme.md in Resources */,
+				27796D2223E8E393005CCE18 /* Podfile in Resources */,
+				27796D2723EA13AA005CCE18 /* Default-568h@2x.png in Resources */,
 				27796CD423E74487005CCE18 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,14 +370,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3BF46AA2DBD33919B6FB65E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MimiAudioPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A39A6E522DD288960A64BD50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MimiAudioPlayer/Pods-MimiAudioPlayer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MimiAudioPlayer/Pods-MimiAudioPlayer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MimiAudioPlayer/Pods-MimiAudioPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		27796CC723E74487005CCE18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27796D1523E7FC9B005CCE18 /* TracksViewController.swift in Sources */,
+				27796D0723E7A6AF005CCE18 /* ArtistInfo.swift in Sources */,
+				27796D1023E7D32A005CCE18 /* MusicService.swift in Sources */,
 				27796CD123E74487005CCE18 /* ViewController.swift in Sources */,
+				27796D0523E7A69D005CCE18 /* TrackInfo.swift in Sources */,
+				27796D0E23E7D111005CCE18 /* ServiceConstants.swift in Sources */,
+				27796D0B23E7BBFF005CCE18 /* ArtistListViewController.swift in Sources */,
+				27796D1723E7FCC3005CCE18 /* TracksViewModel.swift in Sources */,
 				27796CCF23E74487005CCE18 /* AppDelegate.swift in Sources */,
+				27796D2523E9F3BC005CCE18 /* Extensions.swift in Sources */,
 				27796CD723E74487005CCE18 /* MimiAudioPlayer.xcdatamodeld in Sources */,
+				27796D0923E7A6D1005CCE18 /* UserInfo.swift in Sources */,
+				27796D0323E7A640005CCE18 /* ArtistListViewModel.swift in Sources */,
+				27796D1B23E8183D005CCE18 /* FooterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +603,7 @@
 		};
 		27796CF723E74489005CCE18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E175E2310248791D3F2F2D3F /* Pods-MimiAudioPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +621,7 @@
 		};
 		27796CF823E74489005CCE18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31270EDFD7A80B1B1188521F /* Pods-MimiAudioPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
